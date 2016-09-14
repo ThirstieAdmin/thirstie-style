@@ -8,7 +8,7 @@
   * only use gulp for complex builds
   * otherwise use npm scripts + webpack for builds
 * tape test framework: https://github.com/substack/tape
-  * prefer tests with equal or deepEqualtests between actual and expected output.
+  * prefer tests with equal or deepEqual tests between actual and expected output.
 * hogan for templates
 * forever for process management
 
