@@ -79,3 +79,9 @@
       // not
       ({a, b} = {a: 'ay', b: 'bee});
       ```
+  
+  React modifications
+    * To follow FB's practice, use ES6 class constructors for React.Component, etc.
+      * see https://facebook.github.io/react/docs/reusable-components.html#es6-classes
+      * define getInitialState to be called by the constructor function in React.Component
+    * Use stateless functional components, if at all possible
