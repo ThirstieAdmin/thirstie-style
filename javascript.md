@@ -49,13 +49,13 @@
       
       // not this
       let DataHandlerObj = function () {
-      this.x = null;
-      this.y = null;
-      this.op = function (arg1, arg2) {
-      this.x = arg1;
-      this.y = arg2;
-      return this.x + this.y;
-      }
+        this.x = null;
+        this.y = null;
+        this.op = function (arg1, arg2) {
+          this.x = arg1;
+          this.y = arg2;
+          return this.x + this.y;
+        }
       }
       let dh1 = new DataHandlerObj();
       let dh2 = new DataHanlderObj();
