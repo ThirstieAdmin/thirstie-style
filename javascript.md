@@ -17,7 +17,7 @@
 
 * We could start with [eslint](http://eslint.org/docs/rules/)  defaults
   * General modifications
-    * use 2?? spaces for indents 
+    * use 4 spaces for indents 
     * do not use the `with` statement
     * do not use the `++` operator
     * use `===` and `!==` instead of `==` and `!=`
