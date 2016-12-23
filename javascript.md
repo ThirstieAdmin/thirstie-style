@@ -10,7 +10,7 @@
 * tape test framework: https://github.com/substack/tape
   * prefer tests with equal or deepEqual tests between actual and expected output.
 * hogan for templates
-* forever for process management
+* pm2 for process management
 
 
 ## code conventions
