@@ -25,7 +25,7 @@
   
       ```
       // do this, unless you need multiple copies
-      let dataHandler = {
+      const dataHandler = {
         x: null,
         y: null,
         op: function(x, y) {
@@ -36,7 +36,7 @@
       }
       
       // or this, if you need multiple copies
-      let createDataHandler = function () {
+      const createDataHandler = function () {
         let dataHandler = {
           x: null,
           y: null,
@@ -48,11 +48,11 @@
         }
         return dataHandler;
       }
-      let dh1 = createDataHandler();
-      let dh2 = createDataHandler();
+      const dh1 = createDataHandler();
+      const dh2 = createDataHandler();
       
       // not this
-      let DataHandlerObj = function () {
+      const DataHandlerObj = function () {
         this.x = null;
         this.y = null;
         this.op = function (arg1, arg2) {
@@ -61,8 +61,8 @@
           return this.x + this.y;
         }
       }
-      let dh1 = new DataHandlerObj();
-      let dh2 = new DataHanlderObj();
+      const dh1 = new DataHandlerObj();
+      const dh2 = new DataHanlderObj();
       ```
 
   * ES6 / JSX modifications
